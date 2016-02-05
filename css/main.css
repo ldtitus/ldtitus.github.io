@@ -10,25 +10,14 @@ a {
 header {
 	width: 100vw;
 	height: 100vh;
+}
+#pic {
+	width: 100vw;
+	height: 100vh;
 	background: url('../assets/Z.jpg');
 	background-size: cover;
 	background-position: center center;
-}
-.outer {
-    display: table;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-.middle {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.inner {
-    margin-left: auto;
-    margin-right: auto; 
+	display: none;
 }
 #circle {
 	display: none;
@@ -80,7 +69,7 @@ nav {
 .nav_item:hover {
 	background: #2e2e2e;
 	color: #fff;
-	
+
 }
 #content {
 	background: #e6ebeb;
