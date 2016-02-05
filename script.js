@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $("#pic").delay(500).fadeIn(500);
+    $("#pic").delay(800).fadeIn(800);
 });
